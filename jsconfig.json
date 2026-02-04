@@ -1,8 +1,15 @@
 {
   "compilerOptions": {
     "baseUrl": "./src",
-    "paths": {
-      "*": ["types/*", "*"]
-    }
-  }
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es6",
+    "checkJs": false,
+    "skipLibCheck": true
+  },
+  "typeAcquisition": {
+    "enable": false
+  },
+  "include": ["src/**/*", "gatsby-*.js"],
+  "exclude": ["node_modules", "public", ".cache", "dist"]
 }
