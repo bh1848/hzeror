@@ -1,5 +1,5 @@
 module.exports = {
-  title: "hzeror",
+  title: "hzeror.blog",
   description: "Backend Developer hzeror's DevLog", // 간단한 설명 추가
   author: "hzeror",
   siteUrl: "https://bh1848.github.io/hzeror",
