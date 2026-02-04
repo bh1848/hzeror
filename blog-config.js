@@ -1,11 +1,11 @@
 module.exports = {
   title: "hzeror.blog",
-  description: "기록하기 위한 공간", // 간단한 설명 추가
+  description: "기록하기 위한 공간",
   author: "hzeror",
   siteUrl: "https://bh1848.github.io/hzeror",
   links: {
-    github: "https://github.com/bh1848", // 깃허브로
-    linkedIn: "", // 필요하면 링크 채워넣기
+    github: "https://github.com/bh1848", // 깃허브
+    linkedIn: "",
     facebook: "",
     twitter: "",
     x: "",
@@ -17,8 +17,7 @@ module.exports = {
     link: "",
   },
   useAbout: true,
-  // 💡 아래 giscus는 댓글 기능입니다. 
-  // 나중에 본인 저장소로 연결해야 댓글이 정상 작동합니다. (일단은 둡니다)
+  // 💡 아래 giscus는 댓글 기능입니다.
   giscus: {
     repo: "bh1848/hzeror", 
     repoId: "R_kgDORIRgJg",
