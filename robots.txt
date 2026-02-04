@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://bh1848.github.io/hzeror/sitemap-index.xml
+Host: https://bh1848.github.io
