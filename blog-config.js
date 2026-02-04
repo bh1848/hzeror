@@ -1,25 +1,26 @@
 module.exports = {
-  title: "hoodie",
-  description: "Hello :) I'm Hudi who developed gatsby-starter-hoodie theme.",
-  author: "Hudi",
-  siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
+  title: "hzeror",
+  description: "Backend Developer hzeror's DevLog", // 간단한 설명 추가
+  author: "hzeror",
+  siteUrl: "https://bh1848.github.io/hzeror",
   links: {
-    github: "https://github.com/devHudi",
-    linkedIn: "https://linkedin.com",
-    facebook: "https://www.facebook.com",
-    twitter: "https://twitter.com",
-    x: "https://x.com",
-    instagram: "https://www.instagram.com",
-    medium: "https://medium.com",
-    blogger: "https://blogger.com",
-    email: "mailto:devhudi@gmail.com",
-    resume: "https://hudi.blog",
-    link: "https://hudi.blog",
+    github: "https://github.com/bh1848", // 깃허브로
+    linkedIn: "", // 필요하면 링크 채워넣기
+    facebook: "",
+    twitter: "",
+    x: "",
+    instagram: "", 
+    medium: "",
+    blogger: "",
+    email: "mailto:bh1848@naver.com",
+    resume: "",
+    link: "",
   },
   useAbout: true,
-  // See https://giscus.app/
+  // 💡 아래 giscus는 댓글 기능입니다. 
+  // 나중에 본인 저장소로 연결해야 댓글이 정상 작동합니다. (일단은 둡니다)
   giscus: {
-    repo: "devHudi/gatsby-starter-hoodie",
+    repo: "devHudi/gatsby-starter-hoodie", 
     repoId: "MDEwOlJlcG9zaXRvcnkzNjk4NjMzNTg=",
     category: "Comments",
     categoryId: "DIC_kwDOFguqvs4ChwGy",
