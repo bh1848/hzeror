@@ -1,15 +1,15 @@
 ---
-title: "Gatsby v4 블로그 구축 및 배포 트러블슈팅"
+title: "Gatsby v4 블로그 구축 및 배포"
 description: "Node.js 런타임 호환성 이슈 해결과 GitHub Pages 배포 자동화"
 date: 2026-02-04
 update: 2026-02-04
 tags:
   - Gatsby
-  - Troubleshooting
+  - 트러블슈팅
 series: "Gatsby 블로그 제작기"
 ---
 
-Velog 사용 중 깔끔한 디자인에 이끌려 `gatsby-starter-hoodie` 템플릿으로 개인 블로그를 구축하기로 결정하였다.
+Velog 사용 중 깔끔한 디자인이 좋아서 `gatsby-starter-hoodie` 템플릿으로 개인 블로그를 구축하기로 결정하였다.
 하지만 해당 Starter는 **Gatsby v4**를 기반으로 구성되어 있어, 최신 Node.js 런타임 환경에서 **OpenSSL 호환성 문제 및 Dependency 충돌**이 발생하였다.
 
 해당 Starter는 최근 활발한 유지 관리가 이루어지고 있지 않아, 최신 런타임 환경과의 호환성 문제가 발생할 수 있다.

@@ -64,7 +64,6 @@ Discussion이 생성될 카테고리를 지정한다. 일반적인 잡담과 구
 
 ~~~javascript
 module.exports = {
-  // ... existing config
   giscus: {
     repo: "bh1848/hzeror",
     repoId: "R_kgDOL...", // data-repo-id 값 복사
