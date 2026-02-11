@@ -16,7 +16,6 @@ Velog 사용 중 깔끔한 디자인이 좋아서 `gatsby-starter-hoodie` 템플
 
 본 포스팅에서는 Gatsby v4 기반 블로그를 구축하며 마주친 문제들과 이를 해결하기 위해 적용한 **런타임 격리, 의존성 정리, GitHub Pages 배포 전략**을 정리한다.
 
----
 
 ## Node.js 런타임 환경 구성 및 버전 격리
 
@@ -25,7 +24,6 @@ Gatsby v4 엔진은 **Node.js v14 환경에서 안정적으로 동작**하는 �
 
 
 
----
 
 ## NVM 설치 중 발생한 Runtime Panic (Windows)
 
@@ -41,7 +39,6 @@ panic: runtime error: invalid memory address or nil pointer dereference
 
 자동 설치 스크립트 내부에서 사용하는 바이너리가 정상적으로 초기화되지 못한 것으로 판단하였다.
 
----
 
 ## Manual Setup을 통한 Node.js 환경 고정
 
@@ -62,15 +59,12 @@ nvm use 14.21.3
 
 이 방식으로 Runtime Panic 없이 Gatsby 개발 서버를 정상적으로 실행할 수 있었다.
 
----
 
 ## 의존성 충돌 및 Peer Dependency 해결
 
 Node.js 런타임 문제를 해결한 이후에도, Gatsby v4와 일부 플러그인 간 **Peer Dependency 불일치**로 인해 `ERESOLVE` 에러가 발생하며 빌드가 중단되었다.
 
 
-
----
 
 ## 의존성 트리 재구성 전략
 
@@ -92,7 +86,6 @@ npm install gatsby@4 react@17 react-dom@17 --save-exact --legacy-peer-deps
 
 이를 통해 개발 및 빌드 환경을 안정화하였다.
 
----
 
 ## GitHub Pages 배포 아키텍처 구성
 
@@ -101,7 +94,6 @@ GitHub Pages는 사용자 도메인이 아닌 경우 **서브 디렉토리 기�
 
 
 
----
 
 ## pathPrefix 및 배포 스크립트 설정
 
@@ -128,7 +120,6 @@ module.exports = {
 
 이후 `npm run deploy` 명령어만으로 GitHub Pages 배포를 자동화할 수 있었다.
 
----
 
 ## 블로그 운영 Workflow
 
@@ -147,7 +138,6 @@ module.exports = {
 git push origin main
 ~~~
 
----
 
 Node.js v14는 현재 EOL 상태로 보안 업데이트가 지원되지 않는다.
 그러나 본 템플릿은 Gatsby v4 의존성이 강하게 결합되어 있어, 상위 Node.js 버전으로의 마이그레이션은 **코어 엔진 수정이 수반되는 작업**이다.

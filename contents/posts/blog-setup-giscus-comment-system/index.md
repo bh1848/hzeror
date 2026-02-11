@@ -13,7 +13,6 @@ series: "Gatsby 블로그 제작기"
 
 이에 대한 대안으로 **GitHub Discussions API**를 활용하는 **Giscus**를 도입하기로 결정하였다. 본 포스팅에서는 Giscus 시스템의 동작 원리를 이해하고, Gatsby 프로젝트의 `blog-config.js`에 이를 연동하는 과정을 정리한다.
 
----
 
 ## GitHub Repository 설정 및 Discussions 활성화
 
@@ -26,7 +25,6 @@ Giscus는 댓글 데이터를 GitHub 저장소의 Discussions 탭에 저장한�
 
 이 과정이 선행되지 않으면 Giscus 봇이 댓글 스레드를 생성할 수 없다.
 
----
 
 ## Giscus 애플리케이션 구성
 
@@ -48,7 +46,6 @@ Giscus 앱과 저장소 간의 권한 위임 및 매핑 전략을 설정하기 �
 
 Discussion이 생성될 카테고리를 지정한다. 일반적인 잡담과 구분하기 위해 `Announcements` 혹은 `General`을 선택한다. 댓글 기능의 안정성을 위해 '이 저장소에서 giscus가 discussion을 생성하고 수정하도록 허용합니다' 옵션을 활성화하여 봇의 권한을 위임하였다.
 
----
 
 ## 클라이언트 연동 및 Config 주입
 
@@ -80,6 +77,5 @@ module.exports = {
 
 위 설정을 적용하고 배포를 수행하면, 포스트 하단에 Giscus 위젯이 렌더링되며 GitHub 계정을 통한 댓글 작성이 가능해진다.
 
----
 
 Giscus 도입을 통해 별도의 백엔드 구축 없이 **Serverless** 형태의 댓글 시스템을 확보하였다. 데이터의 소유권이 GitHub 저장소에 귀속되므로 데이터 마이그레이션이 용이하며, 개발자 친화적인 UI/UX를 제공한다는 점에서 기술 블로그에 최적화된 선택이라 판단한다.
