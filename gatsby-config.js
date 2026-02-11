@@ -143,7 +143,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-resolve-src`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`,
+        createLinkInHead: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {

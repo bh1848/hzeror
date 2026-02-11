@@ -21,7 +21,7 @@
     "gatsby-plugin-resolve-src": "^2.1.0",
     "gatsby-plugin-robots-txt": "1.8.0",
     "gatsby-plugin-sharp": "4.25.1",
-    "gatsby-plugin-sitemap": "5.25.0",
+    "gatsby-plugin-sitemap": "^5.25.0",
     "gatsby-plugin-styled-components": "5.25.0",
     "gatsby-remark-autolink-headers": "^6.13.1",
     "gatsby-remark-footnotes": "^0.0.8",
@@ -64,7 +64,7 @@
   ],
   "license": "MIT",
   "main": "n/a",
- "scripts": {
+  "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
