@@ -32,11 +32,11 @@ Giscus는 댓글 데이터를 GitHub 저장소의 Discussions 탭에 저장한�
 
 Giscus 앱과 저장소 간의 권한 위임 및 매핑 전략을 설정하기 위해 [Giscus.app](https://giscus.app/ko)에서 설정을 진행하였다.
 
-### 1. 저장소 연결 및 접근 권한
+### 저장소 연결 및 접근 권한
 
 저장소(Repository) 입력란에 `username/repository` 형식으로 대상 저장소를 지정한다. 이때 Giscus가 데이터를 읽고 쓸 수 있도록 해당 저장소는 반드시 **Public(공개)** 상태여야 한다.
 
-### 2. Page - Discussion 매핑 전략
+### Page - Discussion 매핑 전략
 
 블로그 포스트와 댓글 스레드를 매핑하는 기준을 설정해야 한다. URL 경로가 변경되지 않는 한 가장 직관적인 매핑을 보장하는 **pathname** 방식을 선택하였다.
 
@@ -44,7 +44,7 @@ Giscus 앱과 저장소 간의 권한 위임 및 매핑 전략을 설정하기 �
 * **URL:** 전체 URL을 기준으로 한다. (프로토콜 변경 시 매핑이 깨질 위험 존재)
 * **Title:** `og:title` 태그를 기준으로 한다.
 
-### 3. Category 설정
+### Category 설정
 
 Discussion이 생성될 카테고리를 지정한다. 일반적인 잡담과 구분하기 위해 `Announcements` 혹은 `General`을 선택한다. 댓글 기능의 안정성을 위해 '이 저장소에서 giscus가 discussion을 생성하고 수정하도록 허용합니다' 옵션을 활성화하여 봇의 권한을 위임하였다.
 
