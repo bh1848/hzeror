@@ -3,9 +3,10 @@ title: "Gatsby v4 블로그 구축 및 배포"
 description: "Node.js 런타임 호환성 이슈 해결과 GitHub Pages 배포 자동화"
 date: 2026-02-04
 update: 2026-02-04
-tags:
+tags: 
   - Gatsby
-  - 트러블슈팅
+  - 블로그
+  - 환경 설정
 series: "Gatsby 블로그 제작기"
 ---
 

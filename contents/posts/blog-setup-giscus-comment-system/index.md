@@ -3,9 +3,10 @@ title: "블로그 댓글 시스템 Giscus 구축 및 연동"
 description: "GitHub Discussions API를 활용한 Serverless 댓글 시스템 구현"
 date: 2026-02-04
 update: 2026-02-04
-tags:
+tags: 
   - Gatsby
   - Giscus
+  - 오픈소스
 series: "Gatsby 블로그 제작기"
 ---
 
