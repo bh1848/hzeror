@@ -8,6 +8,7 @@ tags:
   - JPA
   - AWS S3
   - 트러블 슈팅
+series: "동구라미 개발기"
 ---
 
 ## Cascade 삭제 방식의 성능 병목과 대안 모색
