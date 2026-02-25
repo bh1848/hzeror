@@ -2,7 +2,7 @@ module.exports = {
   title: "hzeror.blog",
   description: "기록하기 위한 공간",
   author: "hzeror",
-  siteUrl: "https://bh1848.github.io/hzeror",
+  siteUrl: "https://hzeror.netlify.app",
   links: {
     github: "https://github.com/bh1848", // 깃허브
     linkedIn: "",
