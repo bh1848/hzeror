@@ -1,7 +1,7 @@
 ---
 title: "1-9. NULL 속성의 이해"
 description: "SQLD 1-9 과목인 NULL의 정의, 연산 특성 및 ERD 표기법을 정리한다. 데이터 무결성을 유지하기 위한 NULL 처리 원칙과 비교 연산의 주의점을 기술한다."
-date: 2026-02-25
+date: 2026-02-25 18:00:00
 tags:
   - SQLD
 series: "SQLD"

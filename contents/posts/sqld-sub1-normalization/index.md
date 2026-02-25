@@ -1,7 +1,7 @@
 ---
 title: "1-6. 정규화(Normalization)"
 description: "SQLD 1-6 과목인 데이터 정규화의 정의와 단계별 수행 과정을 정리한다. 데이터 중복을 제거하고 이상현상을 방지하여 모델의 유연성을 확보하는 설계 기법을 기술한다."
-date: 2026-02-25
+date: 2026-02-25 15:00:00
 tags:
   - SQLD
 series: "SQLD"

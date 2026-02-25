@@ -1,7 +1,7 @@
 ---
 title: "1-4. 관계(Relationship)"
 description: "SQLD 1-4 과목인 관계의 정의, 종류, 구성 요소 및 차수를 정리한다. 엔터티 간의 논리적 연관성을 물리 모델로 구현하기 위한 핵심 설계 원칙을 기술한다."
-date: 2026-02-25
+date: 2026-02-25 13:00:00
 tags:
   - SQLD
 series: "SQLD"

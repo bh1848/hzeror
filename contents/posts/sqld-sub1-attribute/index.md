@@ -1,7 +1,7 @@
 ---
 title: "1-3. 속성(Attribute)"
 description: "SQLD 1-3 과목인 속성의 정의, 특징, 분류 체계를 정리한다. 특히 함수적 종속성과 도메인 등 정규화의 기초가 되는 핵심 개념을 기술한다."
-date: 2026-02-25
+date: 2026-02-25 12:00:00
 tags:
   - SQLD
 series: "SQLD"

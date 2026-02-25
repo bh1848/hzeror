@@ -1,7 +1,7 @@
 ---
 title: "1-5. 식별자(Identifier)"
 description: "SQLD 1-5 과목인 식별자의 정의, 특징, 분류 체계를 정리한다. 논리 모델의 식별자가 물리 모델의 키(Key)로 변환되는 과정과 식별/비식별 관계의 차이를 기술한다."
-date: 2026-02-25
+date: 2026-02-25 14:00:00
 tags:
   - SQLD
 series: "SQLD"
