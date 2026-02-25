@@ -6,7 +6,7 @@ const SEO = ({ title, description, url }) => {
   return (
     <Helmet>
       <title>{title}</title>
-      <meta name="google-site-verification" content="pMgq9AI3zFDqhukOrJhr_9v_QalL-owH7-n0HegY1X0"/>
+      <meta name="google-site-verification" content="w4zD1rdHg4sim0g5RbVa5jnEIe2lcINQnIV7bcGL7NI" />
       <meta property="og:url" content={url} />
       <meta property="og:title" content={title} />
       <meta property="og:image" content={`${siteUrl}/og-image.png`} />
